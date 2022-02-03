@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c14d17b-5bea-4f89-ac84-23e2598b84e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dijkstra/services/algorithm.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dijkstra/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dijkstra/core.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dijkstra/models/edge.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dijkstra/models/graph.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/dijkstra/models/graph.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repl-port" beforeDir="false" afterPath="$PROJECT_DIR$/target/repl-port" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +44,7 @@
       <recent name="$PROJECT_DIR$/src/dijkstra" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1643897163412">{:repl-history {:ide [], :local [{:command &quot;(defn- vertex-edges [vertex]\n  (let [edge-origin (:vertex/name vertex)\n        vertex-neighbors (:vertex/neighbors vertex-edges)]\n    (pprint \&quot;-------\&quot; edge-origin vertex-neighbors)\n    (map #((t edge-origin %)) vertex-neighbors)))&quot;, :offset 231, :ns &quot;dijkstra.models.graph&quot;} {:command &quot;(pprint (s.algorithm/find-graph-shortest-path graph))&quot;, :offset 53, :ns &quot;dijkstra.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1643899079799">{:repl-history {:ide [], :local [{:command &quot;(pprint (s.algorithm/find-graph-shortest-path graph))&quot;, :offset 53, :ns &quot;dijkstra.core&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
